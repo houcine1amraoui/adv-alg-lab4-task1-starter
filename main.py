@@ -3,6 +3,8 @@ from bst import BST
 
 # In the bst.py file, translate the comments in each BST method 
 # into Python code.
+# In the main.py, write assertions to confirm the correctness 
+# of your implementation.
 
 # BST instantiation
 bst = BST()
