@@ -18,21 +18,21 @@ class BST:
         self.root.right.right.right = Node(16)
 
     # ITERATIVE SEARCH (complete from comments)
-    def search_iterative(self, value):
+    def search_iterative(self, target):
         # 1. Start from the root
         # 2. While current is not None:
-        #       - If value matches current node → return True
-        #       - If value < current.value → go left
+        #       - If target matches current node → return True
+        #       - If target < current.value → go left
         #       - Else → go right
-        # 3. If loop ends → value not found → return False
+        # 3. If loop ends → target not found → return False
         pass
 
     # RECURSIVE SEARCH (complete from comments)
-    def search_recursive(self, value):
-        # Define helper _search(node, value):
+    def search_recursive(self, target):
+        # Define helper _search(node, target):
         #   1. If node is None → return False
-        #   2. If value matches node.value → return True
-        #   3. If value < node.value → search left subtree
+        #   2. If target matches node.value → return True
+        #   3. If target < node.value → search left subtree
         #   4. Else → search right subtree
         #
         # Call helper on the root and return result
