@@ -17,9 +17,7 @@ class BST:
         self.root.left.left.left = Node(0)
         self.root.right.right.right = Node(16)
 
-    # ---------------------------------------------------------
     # ITERATIVE SEARCH (complete from comments)
-    # ---------------------------------------------------------
     def search_iterative(self, value):
         # 1. Start from the root
         # 2. While current is not None:
@@ -29,9 +27,7 @@ class BST:
         # 3. If loop ends → value not found → return False
         pass
 
-    # ---------------------------------------------------------
     # RECURSIVE SEARCH (complete from comments)
-    # ---------------------------------------------------------
     def search_recursive(self, value):
         # Define helper _search(node, value):
         #   1. If node is None → return False
@@ -42,9 +38,7 @@ class BST:
         # Call helper on the root and return result
         pass
 
-    # ---------------------------------------------------------
     # LEVEL ORDER TRAVERSAL (BFS)
-    # ---------------------------------------------------------
     def level_order(self):
         # 1. If tree is empty → return empty list
         # 2. Create a queue list
@@ -60,9 +54,7 @@ class BST:
         # 6. Return result list
         pass
 
-    # ---------------------------------------------------------
     # PRE-ORDER (Root → Left → Right)
-    # ---------------------------------------------------------
     def pre_order(self):
         # Define helper:
         #   1. If node is None → return
@@ -73,9 +65,7 @@ class BST:
         # Call helper on root
         pass
 
-    # ---------------------------------------------------------
     # IN-ORDER (Left → Root → Right)
-    # ---------------------------------------------------------
     def in_order(self):
         # Define helper:
         #   1. If node is None → return
@@ -86,9 +76,7 @@ class BST:
         # Call helper on root
         pass
 
-    # ---------------------------------------------------------
     # POST-ORDER (Left → Right → Root)
-    # ---------------------------------------------------------
     def post_order(self):
         # Define helper:
         #   1. If node is None → return
